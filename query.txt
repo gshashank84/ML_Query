@@ -7,3 +7,11 @@ Why TanH function is used over to sigmoid function as an activation function ?
 Why we initialize weights randomly rather than initializing it to zero?
 -- Logistic regression’s weights w should be initialized randomly rather than to all zeros, because if you initialize to all zeros, then logistic regression will fail to learn a useful decision boundary because it will fail to “break symmetry”.
 
+The shape of a Weights of any layer L neural network can be determined by-
+(no of units in the layer L, no of units in layer L-1)
+
+Why L2 Regularization is termed as decay rate?
+How does Regularization helps from overfitting?
+-- As we add the extra term lamba times the weights euclidean by no of training examples in the cost function and also for dw in backprop.
+Since the values initialized of weight matrix is containing less than 1, then the gradient descent becomes slow because of the small
+values updated. 
