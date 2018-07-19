@@ -21,3 +21,14 @@ What is Mini-batch Gradient Descent?
 examples into a set of mini-batches. These set of mini-batches are used to compute loss and backprop and update the parameters, which
 will be used for the gradient descent of another set of training examples.
 tip- we usually set 2^n training examples in a set consisting the total training examples.
+
+What is Gradient Descent with Momentum?
+-- When we do Gradient Descent it turns out to be oscillating up and down with moving forward to the global minimum. This oscillating
+nature makes it slow, so to avoid the oscillating nature of this we take averages to make it smoother. What actually happens is that when
+we take average in the horizontal direction then the up and down distances cancel out to give a less oscillating nature. The average
+is calcluated by the hyperparameter Beta(usually 0.9). The formaula : Vt = Beta*(Vt-1)+(1-Beta)*(Theta) where theta represents the 
+current value whereas the Vt-1 represents the average of the values of the past datapoints.
+The averages we took is usually termed to be exponentially weighted averages.
+
+What is Adam?
+combination of gradient descent with momentum and RMSProp.
