@@ -15,3 +15,9 @@ How does Regularization helps from overfitting?
 -- As we add the extra term lamba times the weights euclidean by no of training examples in the cost function and also for dw in backprop.
 Since the values initialized of weight matrix is containing less than 1, then the gradient descent becomes slow because of the small
 values updated. 
+
+What is Mini-batch Gradient Descent?
+-- Rather than taking all the training examples one at a time to compute loss (Batch Gradient Descent) we actually divide the training
+examples into a set of mini-batches. These set of mini-batches are used to compute loss and backprop and update the parameters, which
+will be used for the gradient descent of another set of training examples.
+tip- we usually set 2^n training examples in a set consisting the total training examples.
