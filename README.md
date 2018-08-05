@@ -1,4 +1,4 @@
-# supreme-broccoli
+# Machine Learning Queries
 
 ### Why the cost function is computed for all the training sets whereas the square loss function is computed for each training sets?
 
