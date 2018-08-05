@@ -32,3 +32,37 @@ The averages we took is usually termed to be exponentially weighted averages.
 
 What is Adam?
 combination of gradient descent with momentum and RMSProp.
+
+What is Batch Normalization and what it does?
+-- The Barch Normalization is a process in which each hidden layer is normalized by subtracting the mean and dividing by square root of
+sum of varience + epsilon. This normalization helps when there is a shifting of datasets regardless of the same function. It acts like
+a regularizer but have very small impact. To avail the functionality for choice of normalization or not, we introduce two parameters 
+beta and gamma, by multiplying and then subtracting. In this method the bias b is not useful because the mean acts his work so we
+neglect the b and db.
+
+What is Convolution or Convolving?
+-- The convolving is an process in which we usually squash a given matrix(Filter) to the bigger(Image) one, by squashing we actually
+multiply those elements projected of filter and then add those elements. The no. of squashing depends upon the total ability to move
+the filter around the matrix(Image).
+
+What the filter contains?
+-- The filter are of several types, generally vertical and horizontal. These filters contain 1,0 and -1. As the higher value represents
+the Brightness of the image whereas the lower value corresponds to the darker part of any Image.
+
+What is padding and why we implement it?
+-- Padding is done to an image when applying ConvNet. When we apply ConvNet, the image shrinks and hence it loses a lot of information
+of a single pixel because of convolving with the other more value pixels. To prevent this we usually make another set of pixels around
+the boundary of our image as a padding size of 1 to enlarge the image.
+
+How can we calculate the image size after convolution?
+-- If n, f, p are the size of Image, size of Filter, and Padding size respectively then n+2p-f+1 is the resultant size of the image.
+
+Why we use pooling after applying relu function?
+What are minibactches? How they are used?
+
+What are the advantages of choosing large  no of filters? Why we generally use large no of filters?
+Making an inception network deeper (by stacking more inception blocks together) do hurt training set performance?
+Do Using a skip-connection helps the gradient to backpropagate?
+
+What is the Identity Function referred in the ResNet50?
+What is interpolation and extrapolation? What is the difference btw them?(ref- NALU)
