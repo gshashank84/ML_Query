@@ -59,6 +59,9 @@ the boundary of our image as a padding size of 1 to enlarge the image.
 ### How can we calculate the image size after convolution?
 - If n, f, p are the size of Image, size of Filter, and Padding size respectively then n+2p-f+1 is the resultant size of the image.
 
+### What is gradient clipping?
+- The gradient clipping is a method of thresholding the gradients when it explodes in training the model, it is generally used whrere the gradients explode at an exponential rates.
+
 ### Why we use pooling after applying relu function?
 ### What are minibactches? How they are used?
 
