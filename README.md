@@ -8,7 +8,7 @@
 - Logistic regression’s weights w should be initialized randomly rather than to all zeros, because if you initialize to all zeros, then logistic regression will fail to learn a useful decision boundary because it will fail to “break symmetry”.
 
 ### The shape of a Weights of any layer L neural network can be determined by-
-$(no of units in the layer L, no of units in layer L-1)$
+(no of units in the layer L, no of units in layer L-1)
 
 ### Why L2 Regularization is termed as decay rate?
 
