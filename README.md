@@ -1,6 +1,5 @@
 # Machine Learning Queries
 
-### Why the cost function is computed for all the training sets whereas the square loss function is computed for each training sets?
 
 ### Why TanH function is used over to sigmoid function as an activation function ?
 -  The tanh activation usually works better than sigmoid activation function for hidden units because the mean of its output is closer to zero, and so it centers the data better for the next layer.
