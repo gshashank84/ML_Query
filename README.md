@@ -62,6 +62,8 @@ the boundary of our image as a padding size of 1 to enlarge the image.
 ### What is gradient clipping?
 - The gradient clipping is a method of thresholding the gradients when it explodes in training the model, it is generally used whrere the gradients explode at an exponential rates.
 
+### Why One-hot encoding is used as a input feature in every machine-learning model?
+
 ### Why we use pooling after applying relu function?
 ### What are minibactches? How they are used?
 
