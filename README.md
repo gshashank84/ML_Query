@@ -65,10 +65,10 @@ the boundary of our image as a padding size of 1 to enlarge the image.
 
 ### Why we use pooling after applying relu function?
 ### What are minibactches? How they are used?
+- Minibatches are the composite blocks which are basically done to create the time period of the updating of gradients. It is usually done to avoid the fluctuations caused in convergence method(like Gradient Descent).
 
 ### What are the advantages of choosing large  no of filters? Why we generally use large no of filters?
-### Making an inception network deeper (by stacking more inception blocks together) do hurt training set performance?
-### Do Using a skip-connection helps the gradient to backpropagate?
+### How using a skip-connection helps the gradient to backpropagate?
 
 ### What is the Identity Function referred in the ResNet50?
 ### What is interpolation and extrapolation? What is the difference btw them?(ref- NALU)
