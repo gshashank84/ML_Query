@@ -75,5 +75,8 @@ the boundary of our image as a padding size of 1 to enlarge the image.
 ### How to reset the computation graph in Tensorflow?
 - tf.reset_default_graph()
 
+### Differentiate between PCA and SVD?
+- 1. PCA -> Square Matrix whereas SVD -> Any general matrix
+
 ### Why we compute the transpose while reshaping any tensor(while maintainig order)?
 - We can reshape any tensor but for maintaining order we must reshape it corresponding to its axis. Like suppose we want to reshape a tensor of shape (a,b,c) into (c,b*a), so we would first reshape it in (b*a,c) and then will compute transpose of it to get the required shape (c,b*a).
