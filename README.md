@@ -1,5 +1,11 @@
 # Machine Learning Queries
 
+### What is the reason behind the use of Maxpool function in Object Recognition Task?
+- The Maxpool function prohibits translation variance in the sequential sequences of images (i.e consecutive scene of
+frames in the real time video) so that the model is able to determine the object more steadily in Object Recognition.
+
+- The above reason also justify why it is never used in Reinforcement Learning task where the agent learns itself to maximize reward for variant of states. Here we try to imply each consecutive frames to be different as possible, as it helps the agent to determinate each frames as a new state.
+
 ### What if my Training loss is higher than Validation loss?
 - The Training must not greater than validation loss, it infers that the model need to be trained more or the learning rate is too low.
 
