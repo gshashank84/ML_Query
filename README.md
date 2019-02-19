@@ -1,5 +1,8 @@
 # Machine Learning Queries
 
+### How *Collaborative Filtering* are implemented with the help of Machine Learning?
+- One of the way to implement is by Matrix Factorization method where we have a huge and sparse matrix as our dataset. However this have some trade offs and not the state of the art model for Colloborative Filtering.
+
 ### What is the reason behind the use of Maxpool function in Object Recognition Task?
 - The Maxpool function prohibits translation variance in the sequential sequences of images (i.e consecutive scene of
 frames in the real time video) so that the model is able to determine the object more steadily in Object Recognition.
