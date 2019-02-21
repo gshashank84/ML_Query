@@ -1,6 +1,6 @@
 # Machine Learning Queries
 
-### Why do we use Deep Learning instead of traditional Machine Learning Algorithms?
+### Why nowadays we mostly use Deep Learning instead of traditional Machine Learning Algorithms?
 - One of the best answer is the use of *Feature Engineering* is minimized in Deep Learning. The Deep Learning is nothing but the use of Deep Neural Networks as an generic Algorithm. The whole time of Feature Engineering are reduced and therefore save a lot of work load. 
 - The another thing which is more exciting is the exceptional performance of Neural Nets as compared to any other algorithm.
 
