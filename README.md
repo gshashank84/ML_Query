@@ -4,6 +4,8 @@
 - One of the best answer is the use of *Feature Engineering* is minimized in Deep Learning. The Deep Learning is nothing but the use of Deep Neural Networks as an generic Algorithm. The whole time of Feature Engineering are reduced and therefore save a lot of work load. 
 - The another thing which is more exciting is the exceptional performance of Neural Nets as compared to any other algorithm.
 
+#### Why do we use Non-Linear functions in computation of Neural Nets instead of using Linear Funcitons?
+
 #### Why do we see concepts been explained/visualize in two dimensions commonly? Whereas in Deep Learning we dealt with too many dimensions?
 
 ### How *Collaborative Filtering* are implemented with the help of Machine Learning?
