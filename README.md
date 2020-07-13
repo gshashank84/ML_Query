@@ -99,3 +99,12 @@ the boundary of our image as a padding size of 1 to enlarge the image.
 
 ### Why we compute the transpose while reshaping any tensor(while maintainig order)?
 - We can reshape any tensor but for maintaining order we must reshape it corresponding to its axis. Like suppose we want to reshape a tensor of shape (a,b,c) into (c,b*a), so we would first reshape it in (b*a,c) and then will compute transpose of it to get the required shape (c,b*a).
+
+
+### Ways to calculate standard deviation of sampling distribution of MVUE(Minimum Variance Unbiased Estimator), assuming the distribution is normal?
+- There are 3 cases here:
+ 1. If we already know the standard deviation of the Population Distribution then we can simply divide it by squareroot of N. Where N is Sample Size of the Sampling Distribution.
+ 
+ 2. If the standard devaition for the Population Distribution is not given then compute the Standard Deviation of Sampling Distrbution using the bin values. The method is first list out all the central values of each bin and then compute standard deviation of them. Note that the Sample Size N must be greater than 1.
+ 
+ 3. If the Sample Size N is 1 then you need to assume it as the mean and then to find standard deviation you need to calculate the Sample Standard Deviation for the only sample values.
