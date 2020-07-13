@@ -102,7 +102,6 @@ the boundary of our image as a padding size of 1 to enlarge the image.
 
 
 ### Ways to calculate standard deviation of sampling distribution of MVUE(Minimum Variance Unbiased Estimator), assuming the distribution is normal?
-- There are 3 cases here:
  1. If we already know the standard deviation of the Population Distribution then we can simply divide it by squareroot of N. Where N is Sample Size of the Sampling Distribution.
  
  2. If the standard devaition for the Population Distribution is not given then compute the Standard Deviation of Sampling Distrbution using the bin values. The method is first list out all the central values of each bin and then compute standard deviation of them. Note that the Sample Size N must be greater than 1.
