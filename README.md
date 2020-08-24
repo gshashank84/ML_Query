@@ -107,3 +107,6 @@ the boundary of our image as a padding size of 1 to enlarge the image.
  2. If the standard devaition for the Population Distribution is not given then compute the Standard Deviation of Sampling Distrbution using the bin values. The method is first list out all the central values of each bin and then compute standard deviation of them. Note that the Sample Size N must be greater than 1.
  
  3. If the Sample Size N is 1 then you need to assume it as the mean and then to find standard deviation you need to calculate the Sample Standard Deviation for the only sample values.
+
+### What is the Degree of Freedom when you have two sampling distributions having sample size as N1 and N2 respectively, in the case where we have to find the mean with the difference between them?
+- When N1 == N2 then Degree of Freedom = N1 - 1. Or else the Degree of Freedom will be equal to N1+N2-2.
